@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Animes - Anime Al-fager</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="assets/icons/logo.jpg" type="image/x-icon" />
+    </head>
+    <body>
+    
+        <header class = "header">
+            <nav class = "navbar flex items-center shadow-nav">
+                <div class = "container w-full">
+                    <div class = "navbar-content">
+                        <div class = "brand-and-toggler flex items-center justify-between">
+                            <a href = "index.html" class = "navbar-brand">Anime<span class = "text-green-normal">Al-fager</span></a>
+                            <button type = "button" class = "lg:hidden text-white text-2xl" id = "navbar-show-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 6H20M4 12H20M4 18H20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                            </button>
+                        </div>
+                        <div class = "navbar-collapse fixed right-0 top-0 w-full sm:w-[280px] h-full bg-white shadow-nav-collapse pt-[60px] px-5 pb-4 text-center transition ease-in-out duration-300 transform lg:relative lg:p-0 lg:flex lg:items-center lg:justify-end lg:w-full lg:bg-transparent lg:shadow-none translate-x-full lg:translate-x-0">
+                            <button type = "button" class = "lg:hidden" id = "navbar-hide-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none">
+                                    <g id="Menu / Menu_Duo_MD">
+                                    <path id="Vector" d="M5 15H19M5 9H19" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    </svg>
+                            </button>
+                            <ul class = "navbar-nav">
+                                <li class = "nav-item">
+                                    <a href = "index.html" class = "nav-link">Home</a>
+                                </li>
+
+                                <li class = "nav-item">
+                                    <a href = "stories/stories.html" class = "nav-link">stories</a>
+                                </li>
+                                <li class = "nav-item" >
+                                    <a href = "Animes.html" class = "nav-link"  style="--tw-text-opacity: 1;
+                                    color: rgb(185 25 142 / var(--tw-text-opacity));">Anime</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+            
+        </header>
+
+
+        <footer class = "footer">
+            <div class = "footer-top">
+                <div class = "container grid gap-6 lg:grid-cols-[2fr_repeat(3,1fr)] text-center lg:text-start">
+                    <div class = "footer-item">
+                        <a href = "#" class = "navbar-brand">Anime<span>Al-fager</span></a>
+                        <p class = "para-text">Embark on an adventure through the captivating world of anime! Dive into thrilling stories, vibrant characters, and boundless imagination. Join us now and explore the endless excitement of anime!</p>
+                    </div>
+                    <div class = "footer-item">
+                        <h5 class = "footer-item-title">Social</h5>
+                        <ul class = "footer-item-links">
+                            <li><a href = "https://youtube.com/@animealfager?si=NLcuypf6Ky18iZsZ">youtube</a></li>
+                            <li><a href = "https://www.instagram.com/yousef_tariq1/">instagram</a></li>
+                            <li><a href = "https://t.me/+iym7Wv-QEvgxZDY8">telegram</a></li>
+                            <li><a href = "#">discord</a></li>
+                        </ul>
+                    </div>
+                    <div class = "footer-item">
+                        <h5 class = "footer-item-title">supports</h5>
+                        <ul class = "footer-item-links">
+                            <li><a href = "Settings & Privacy.html">Settings & Privacy</a></li>
+                            <li><a href = "News.html">News</a></li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-item">
+                        <h5 class = "footer-item-title">newsletter</h5>
+                        <p class = "para-text">Subscribe our newsletter to get our latest update & news consectetur</p>
+
+                        <form id="subscribe-form" class="newsletter-form mt-4" method="post">
+                            <div class="input-group">
+                                <input id="email" type="text" class="input-group-field outline-none" placeholder="Your email address" />
+                                <button id="subscribe-btn" class="input-group-btn" type="button">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div id="loading-circle" style="display:none;">Loading...</div>
+                        <div id="subscribe-message" class="error-message"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+            <!-- jquery cdn -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <!-- slick slider js -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <!-- custom script js -->
+            <script src="script.js"></script>
+        </body>
+    </html>
